@@ -9,6 +9,20 @@ My submission for the AON Data Scientist interview assignment. The task is to cr
 2. **Data Cleaning:** The first model I build will use a hybrid of content-based and collaborative filtering. To improve the quality of recommendations, I will remove movies with less than 50 ratings and users who have given less than 10 ratings.
 3. **Genome Tags:** The remaining dataset will then be normalized. Furthermore, genome tags will be extracted to understand the relevance scores and enrich the data.
 
+## Methodologies Used:
+
+I have used 2 approaches to the problem: _Hybrid Filtering_ and _Recurrent Neural Networks (RNN)_.
+1. **Hybrid Filtering:** In this approach, I use KNN clustering to cluster the data based on 2 filtering types: _content-based_ and _collaborative_ filtering. The recommendations gathered from these 2 clusters are then combined to give a single list using a weighted average which can be modified, depending on which form of filtering is preferred. The variables which the recommendations are based upon are:
+    + Genre of the movie watched.
+    + Movies that similar users like to watch.
+    + User's Watching history.
+2. **Recurrent Neural Network:** RNNs can predict the next movie a user might be interested in watching based on their previous viewing history. The model processes a sequence of movies watched by the user, learning patterns in their preferences to recommend the most likely next movie in the sequence.
+
+**Recommended Deployment:** 
+1. Hybrid Filtering model would be preferred as it would be more adaptable to our case study. This case uses both user ratings and movie attributes, hence this model will provide better recommendations and more diversity in suggestions.
+2. It gives you more control over the recommendation system as you can influence each component's control over the system (content vs. collaborative).
+3. As it doesn't require the time consuming training process than an RNN requires, it is more suitable and efficient for realtime applications.
+
 ## Requirements
 
 You should have the following Python dependencies installed:
@@ -42,9 +56,10 @@ python run.py
 4. final_movies_with_embeddings.csv: Dataset containing movie embeddings.
 5. final_filtered_ratings.csv: Dataset containing user ratings. 
 
-##Future Works:
+## Future Works:
 
 1. The RNN model requires a lot of work. As it was a huge dataset, the model has been adjusted to give the highest possible efficiency by sacrificing accuracy.
-2. We can use diversity filters to make users explore more niches, and tweak the influence of collaborative filtering to influence the recommendations based on users similar to them.
+2. 
+3. We can use diversity filters to make users explore more niches, and tweak the influence of collaborative filtering to influence the recommendations based on users similar to them.
 
 ### Please contact me at ayushmant.bharadwaj@gmail.com or +91 9958493981 for any doubts! 
