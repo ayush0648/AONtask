@@ -12,7 +12,7 @@ Ayushmant Bharadwaj's submission for the AON Data Scientist interview assignment
 ## Methodologies Used:
 
 I have used 2 approaches to the problem: _Hybrid Filtering_ and _Recurrent Neural Networks (RNN)_.
-1. **Hybrid Filtering:** In this approach, I use KNN clustering to cluster the data based on 2 filtering types: _content-based_ and _collaborative_ filtering. The recommendations gathered from these 2 clusters are then combined to give a single list using a weighted average which can be modified, depending on which form of filtering is preferred. The variables which the recommendations are based upon are:
+1. **Hybrid Filtering:** In this approach, I used KNN clustering to cluster the data based on 2 filtering types: _content-based_ and _collaborative_ filtering. The recommendations gathered from these 2 clusters are then combined to give a single list using a weighted average which can be modified, depending on which form of filtering is preferred. The variables which the recommendations are based upon are:
     + Genre of the movie watched.
     + Movies that similar users like to watch.
     + User's Watching history.
