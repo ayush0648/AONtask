@@ -6,7 +6,7 @@ Ayushmant Bharadwaj's submission for the AON Data Scientist interview assignment
 1. **Data Balancing:** The data is unbalanced as Drama is 17%, Comedy is 8%, and the rest 75% falls under other genres. To balance this:
 + Genres have been embedded using TF-IDF and I have used SVD to reduce dimensionality, and to find relationships between genres.
 + Drama has been undersampled and other genres have been oversampled to balance the dataset.
-2. **Data Cleaning:** The first model I build will use a hybrid of content-based and collaborative filtering. To improve the quality of recommendations, I will remove movies with less than 50 ratings and users who have given less than 10 ratings.
+2. **Data Cleaning:** The first model I build will use a hybrid of content-based and collaborative filtering. To improve the quality of recommendations, I will remove movies which have received less than 50 ratings, and users who have given less than 10 ratings.
 3. **Genome Tags:** The remaining dataset will then be normalized. Furthermore, genome tags will be extracted to understand the relevance scores and enrich the data.
 
 ## Methodologies Used:
