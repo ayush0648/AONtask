@@ -16,7 +16,7 @@ I have used 2 approaches to the problem: _Hybrid Filtering_ and _Recurrent Neura
     + Genre of the movie watched.
     + Movies that similar users like to watch.
     + User's Watching history.
-2. **Recurrent Neural Network:** RNNs can predict the next movie a user might be interested in watching based on their previous viewing history. The model processes a sequence of movies watched by the user, learning patterns in their preferences to recommend the most likely next movie in the sequence.
+2. **Recurrent Neural Network:** RNNs can predict the next movie a user might be interested in watching based on their viewing history. The model processes a sequence of movies watched by the user, learning patterns in their preferences to recommend the most likely next movie in the sequence.
 
 **Recommended Deployment:** 
 1. Hybrid Filtering model is suggested as it would be more adaptable to our case study. This case uses both user ratings and movie attributes, hence this model will provide better recommendations and more diversity in suggestions.
