@@ -27,7 +27,7 @@ This leaves us with 2 remaining questions:
 1. Suppose, a user has watched a particular movie ‘X’ and is interested in watching another movie ‘Y’, which may or may not be to their immediate taste. So, can I recommend a few movies in sequence, that this user can watch to ease themselves into watching ‘Y'.
 2. Using ‘Exploration vs Exploitation’ strategies, can I suggest ways in which you can get an user to try out different niches.
 
-These 2 issues can be solved in the methodologies used in the following ways:
+These 2 issues can be solved in the aforementioned methodologies in the following ways:
 1. The 1st problem is a sequential recommendation problem. The _RNN Model_ is naturally good for this task due to its ability to model sequential behavior, including understanding how a user might progress from one genre or type of movie to another.
 2. Both models are good at understanding exploitation. Although, the _Hybrid Model_ gives you more control over exploration by adjusting how similar movies are to the ones the user has already watched and can incorporate randomness to encourage niche discovery.
 
