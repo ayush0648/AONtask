@@ -68,7 +68,6 @@ python run.py
 ## Future Works:
 
 1. The RNN model requires a lot of work. As it was a huge dataset, the model has been adjusted to give the highest possible efficiency by sacrificing accuracy.
-2. 
-3. We can use diversity filters to make users explore more niches, and tweak the influence of collaborative filtering to influence the recommendations based on users similar to them.
+2. We can use diversity filters to make users explore more niches, and tweak the influence of collaborative filtering to influence the recommendations based on users similar to them.
 
 ### Please contact me at ayushmant.bharadwaj@gmail.com or +91 9958493981 for any doubts! 
