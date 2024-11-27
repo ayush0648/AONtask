@@ -8,5 +8,4 @@ My submission for the AON Data Scientist interview assignment. The task is to cr
 + Drama and other genres have been undersampled to balance the dataset.
 2. **Data Cleaning:** The first model I build will use a hybrid of content-based and collaborative filtering. To improve the quality of recommendations, I will remove movies with less than 50 ratings and users who have given less than 10 ratings.
 3. **Genome Tags:** The remaining dataset will then be normalized. Furthermore, genome tags will be extracted to understand the relevance scores and enrich the data.
-4. **Elastic Search:** I will use Elastic Search on the dataset to make querying more efficient.
 
