@@ -50,4 +50,4 @@ def recommend_next_movie(user_id, movie_id_watched, n_recommendations=5):
     recommended_movies = movies[movies['movieId'].isin(recommended_movie_ids)]
     recommended_movies['similarity_score'] = predicted_scores[predicted_movie_indices]
 
-    return recommended_movies[['movieId', 'title']]  # Exclude similarity score for cleaner output
+    return recommended_movies[['movieId', 'title']] 
