@@ -19,7 +19,7 @@ I have used 2 approaches to the problem: _Hybrid Filtering_ and _Recurrent Neura
 2. **Recurrent Neural Network:** RNNs can predict the next movie a user might be interested in watching based on their previous viewing history. The model processes a sequence of movies watched by the user, learning patterns in their preferences to recommend the most likely next movie in the sequence.
 
 **Recommended Deployment:** 
-1. Hybrid Filtering model would be preferred as it would be more adaptable to our case study. This case uses both user ratings and movie attributes, hence this model will provide better recommendations and more diversity in suggestions.
+1. Hybrid Filtering model is suggested as it would be more adaptable to our case study. This case uses both user ratings and movie attributes, hence this model will provide better recommendations and more diversity in suggestions.
 2. It gives you more control over the recommendation system as you can influence each component's control over the system (content vs. collaborative).
 3. As it doesn't require the time consuming training process than an RNN requires, it is more suitable and efficient for realtime applications.
 
