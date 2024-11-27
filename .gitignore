@@ -1,2 +1,9 @@
 # Ignore all CSV files
 *.csv
+
+# Ignore .idea folder (used by JetBrains IDEs like PyCharm)
+.idea/
+
+# Ignore Python bytecode files and __pycache__ folders
+__pycache__/
+*.pyc
