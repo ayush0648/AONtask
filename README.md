@@ -20,7 +20,7 @@ I have used 2 approaches to the problem: _Hybrid Filtering_ and _Recurrent Neura
 
 **Recommended Deployment:** 
 1. Hybrid Filtering model is suggested as it would be more adaptable to our case study. This case uses both user ratings and movie attributes, hence this model will provide better recommendations and more diversity in suggestions.
-2. It gives you more control over the recommendation system as you can influence each component's control over the system (content vs. collaborative).
+2. It provides more control over the recommendation system as you can influence each component's control over the model (content vs. collaborative).
 3. As it doesn't require the time consuming training process than an RNN requires, it is more suitable and efficient for realtime applications.
 
 This leaves us with 2 remaining questions:
