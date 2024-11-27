@@ -1,5 +1,5 @@
 # AONtask
-My submission for the AON Data Scientist interview assignment. The task is to create a movie recommender system using the [Movie Lens dataset](https://www.kaggle.com/datasets/grouplens/movielens-20m-dataset?resource=download). Here's a step-by-step approach to the system:
+Ayushmant Bharadwaj's submission for the AON Data Scientist interview assignment. The task is to create a movie recommender system using the [Movie Lens dataset](https://www.kaggle.com/datasets/grouplens/movielens-20m-dataset?resource=download). Here's a step-by-step approach to the system:
 
 ## Data Preprocessing
 
